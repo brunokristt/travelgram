@@ -8,5 +8,11 @@ main {
 main img {
     width: 286px;
     height: 286px;
-    object-fit: cover;    
+    object-fit: cover;   
+    transition: transform .2s ease; 
+}
+
+main img:hover {
+    border: 4px solid var(--brand-color);    
+    transform: scale(1.07);
 }
